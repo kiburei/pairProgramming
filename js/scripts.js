@@ -17,12 +17,21 @@ $(document).ready(function(){
 
 
   });
+    var match = pair(student.firstName);
+    $("#pair").text(match);
 });
 
 var student = {
-    firstName: ["Mwanafunzi", "Student", "Cohort", ""],
+    firstName: ["Andrew", "Sotty", "Mike", "Suheib", "Paul",  "Steve", "Kevin", "Tevin", "Yonko", "Keneth", "Minner", "Ken", "Vivian", "Isiah", "Gor"],
     lastName: "Moringa",
     password: "password",
     cohort: "mftp2",
     track: ["HTML","JavaScript","CSS"]
   };
+
+var pair = function(std) {
+  var pairs = [];
+  pairs.push(_.sample(std, 2));
+  return pairs[0];
+
+}

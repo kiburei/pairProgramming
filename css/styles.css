@@ -25,6 +25,34 @@
   float: right;
 
 }
+.player{
+  float: right;
+}
+.container{
+  margin-top: 20px;
+border: 100px;
+padding: 0px;
+}
+h2{
+  font-style: italic;
+  font-weight: bold;
+  color: 
+}
+p{
+  font-style:oblique;
+  color:
+
+}
+ul{
+
+}
+.logo{
+text-align: center;
+}
+
+.mike{
+  font-style: italic;
+=======
 
 .success {
   color: red;

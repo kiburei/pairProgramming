@@ -9,8 +9,9 @@ $(document).ready(function(){
       $(".success").text("Log in successfull");
       window.location.replace("home.html");
       var pairs = pairwise(students);
+      var day = days(pairs);
 
-      console.log(days(pairs));
+      $("#pair").text(students[0] + " and " + students[1]);
 
 
 
@@ -35,26 +36,18 @@ function pairwise(list) {
   return pairs.concat(pairwise(rest));
 }
 
+
 // make arrays for all days
 function days(pairs) {
   var students = ["Andrew", "Sotty", "Mike", "Suheib", "Paul",  "Steve", "Kevin", "Tevin", "Yonko", "Keneth", "Minner", "Ken", "Vivian", "Isiah", "Gor"];
   debugger;
-    var monday = [];
-    // pick names once and return with first pair
-    monday.push(pairs[0]);
-    for (var i = 0; i < students.length; i++) {
-       if (monday[i].includes(students[i] && students[i + 2])) {
-         console.log(monday[i]);
-          // Find next student in List who is not in monday
-          var next = students[i + 2];
-          monday.push[p[i + 2]];
+    var current_day = [];
+     for (var i = 0; i < students.length; i++) {
+       console.log(current_day.push(pairs[i]));
+     }
 
-       }
-
-    }
   }
 
-// Check if Name already paird
 
 
 

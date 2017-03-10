@@ -7,7 +7,7 @@ $(document).ready(function(){
 
     var partner = pair(student);
     if (myPairs.includes(partner) || partner === student) {
-      // alert("You out of luck");
+      alert("You out of luck");
       partner = pair(student);
     }
     myPairs.push(partner);
@@ -19,8 +19,8 @@ $(document).ready(function(){
 
 // Business Logic
 var pair = function(student){
-  var prep = ["AK47 Majid", "Andrew", "Sotty", "Mike", "Suheib", "Paul",  "Steve", "Kevin", "Tevin", "Yonko", "Keneth", "Minneh", "Ken", "Vivian", "Isiah", "Gor"];
-  debugger;
+  var prep = ["AK47 Majid", "Andrew", "Sotty", "Mike", "Suheib", "Paul",  "Steve", "Kevin", "Tevin", "Yonko", "Jaden", "Minneh", "Ken", "Vivian", "Isiah", "Gor"];
+  // debugger;
   var myPairs = ["Sotty", "Mike", "Suheib", "Paul",  "Steve", "Kevin", "Tevin"];
   var pairsInJson;
   // Pick random class mate
@@ -29,17 +29,13 @@ var pair = function(student){
    if (myPairs.includes(partner) || partner === student) {
     //  alert("finding other match");
      var partner = _.sample(prep);
-       var index = prep.indexOf(partner);
+      //  var index = prep.indexOf(partner);
        //  add student to paired list
-          if (index !== -1) {
-              myPairs.push(partner);
-              pairsInJson = Object.assign({}, myPairs);
+          // if (index !== -1) {
+          //     myPairs.push(partner);
+              // pairsInJson = Object.assign({}, myPairs);
               // alert(pairsInJson);
               // console.log(myPairs);
           }
-
+          return partner;
    }
-   return partner;
-
-
-}

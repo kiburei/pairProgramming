@@ -7,7 +7,7 @@ $(document).ready(function(){
 
     var partner = pair(student);
     if (myPairs.includes(partner) || partner === student) {
-      alert("You out of luck");
+      alert("Can not be paired with " + partner);
       partner = pair(student);
     }
     myPairs.push(partner);
@@ -43,7 +43,7 @@ var pair = function(student){
    var partner = _.sample(prep);
   //  Check if class mate is paired with before or if classmate is yourself
    if (myPairs.includes(partner) || partner === student) {
-    //  alert("finding other match");
+     alert("Can not be paired with " + partner);
      var partner = _.sample(prep);
       //  var index = prep.indexOf(partner);
        //  add student to paired list

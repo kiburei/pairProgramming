@@ -47,13 +47,3 @@ function days(pairs) {
      }
 
   }
-
-
-
-
-
-
-//
-// for (var i = 0; i < p.length; i++) {
-//   console.log(p[i]);
-// }

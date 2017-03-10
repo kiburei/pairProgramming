@@ -12,114 +12,114 @@
         background-repeat: no-repeat;
         background-size: contain;
     }
-    
+
     .login {
         background-image: url(../images/Moringa-School.jpg);
         /*background-color: #a51010;*/
         background-repeat: no-repeat;
         background-size: cover;
     }
-    
+
     .pair {
         color: grey;
         float: right;
     }
-    
+
     .player {
         float: right;
     }
-    
+
     .container {
         margin-top: 20px;
         border: 100px;
         padding: 0px;
     }
-    
+
     h2 {
         font-style: italic;
         font-weight: bold;
         color:
     }
-    
+
     p {
         font-style: oblique;
         color:
     }
-    
+
     ul {}
-    
+
     .logo {
         text-align: center;
     }
-    
+
     .mike {
         font-style: italic;
     }
-    
+
     =======.success {
         color: red;
     }
-    
+
     .panel-collapse {
         height: 150px;
         overflow-y: scroll;
     }
-    
+
     section {
         border-bottom: ;
         margin-right: medium;
     }
-    
+
     .head {
         font-family: sans-serif;
         font: bold;
         align-self: flex-end;
         align-content: flex-end;
     }
-    
+
     #color {
         background-color: #3399ff;
     }
-    
+
     h1.para1 {
         text-align: center;
         text-decoration-line: underline;
         color: aqua;
     }
-    
+
     h2.para2 {
         text-align: center;
         color: aqua;
     }
-    
+
     h3.para3 {
         text-align: center;
         color: aqua;
     }
-    
+
     .container {
         align-content: center;
         font: bold;
     }
-    
+
     #front {
         color: #000000;
         font-size: bold;
     }
-    
+
     #stand {
         color: #000000;
     }
-    
+
     #back {
         color: #000000;
     }
-    
+
     #log {
         color: #000000;
         float: right;
     }
-=======
+
 .registration {
   margin-top: 220px;
   margin-left: 500px;
@@ -158,7 +158,7 @@ padding: 0px;
 h2{
   font-style: italic;
   font-weight: bold;
-  color: 
+  color:
 }
 p{
   font-style:oblique;
@@ -177,4 +177,9 @@ text-align: center;
 
 .success {
   color: red;
+}
+
+.pairs {
+  color: red;
+  font-style: italic;
 }
